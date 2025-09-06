@@ -3,7 +3,7 @@ namespace Luna.Lang;
 public class Token
 {
     public TokenType Type { get; set; }
-    public string Literal { get; set; }
+    public required string Literal { get; set; }
 }
 
 public enum TokenType
